@@ -1,6 +1,6 @@
 # Queens-Puzzle
 
-The Queens Puzzle is a puxxle in which you are meant to place 8 chess pieces in a chess board in such a way that no two pieces share the same column, row, or diagonal coordinates.
+The Queens Puzzle is a puzzle in which you are meant to place 8 chess pieces in a chess board in such a way that no two pieces share the same column, row, or diagonal coordinates.
 
 The algorithm in this code achieves this by the means of recursion in the function placer().
 
