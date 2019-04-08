@@ -82,7 +82,7 @@ public class Board{
       and we already checked that:
       f != g so this piece is not in the main diagonal
     */
-    while((f >= 1 && g >= 1)){ // checking northwest
+    while(f >= 1 && g >= 1){ // checking northwest
       if(paramBoard[f][g]) return false;
       else{
         f--; g--;
