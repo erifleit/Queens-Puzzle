@@ -22,7 +22,7 @@ public class BoardSimple{
     }
     boolean[][] tempBoard = paramBoard;
     for(int i = 0 ; i < size ; i++){
-      if(checkRow(j,paramBoard) && checkDiagonal(i,j,paramBoard)){
+      if(checkColumn(i,paramBoard) && checkDiagonal(i,j,paramBoard)){
         tempBoard[i][j] = true;
         if(placer(j+1 , tempBoard, queenNum-1)){
           return true;
