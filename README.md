@@ -2,6 +2,8 @@
 
 The Queens Puzzle is a puzzle in which you are meant to place 8 chess pieces in a chess board in such a way that no two pieces share the same column, row, or diagonal coordinates.
 
+https://en.wikipedia.org/wiki/Eight_queens_puzzle
+
 The algorithm in this code achieves this by the means of recursion in the function placer().
 
 You can change the size of the board and the amount of queens for experimenting. Though for there to be a solution the number of queens must be equal or less than the width of the board (assuming a perfect square board).
